@@ -1,0 +1,3 @@
+function openLink(){
+  alert("Shine!")
+}

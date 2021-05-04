@@ -1,0 +1,22 @@
+/* app global css */
+.bg-Color{
+  background-color: #26a89a;
+}
+.txt-Color{
+  color: #26a89a;
+}
+.mdForm{
+  width: 700px; 
+  max-width: 90vw;
+}
+.addServiceFormgtsm{
+  width: 100%;
+}
+
+.dashboardDataList{
+  border:1px solid #26a89a;
+  width: 18vw;
+}
+.itemLabel{
+  background-color: lightgray;
+}

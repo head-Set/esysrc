@@ -1,0 +1,47 @@
+#app{
+  background-color: #000;
+  color: #fff;
+}
+.container{
+  border-right: 5px dotted #26a89a;
+  border-left: 5px dotted #26a89a;
+  border-top: 3px dotted #26a89a;
+  padding-bottom: 20px;
+  padding-left:10px ;
+  padding-right:10px ;
+  display: block;
+  /* margin-top: auto; */
+  margin-top: 25vh;;
+  text-align: center;
+  /* box-shadow: 10px 10px 5px grey; */
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#textHead{
+  font-size: large;
+  text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+}
+
+#linkBTn{
+  background-color: #26a89a;
+  color: #ffff;
+  padding: 20px;
+  width: 100%;
+  font-size: large;
+  font-weight: bold;
+  font-stretch:expanded;
+  border-color:#26a89a;
+}
+@media only screen and (min-width: 992px) {
+  .container{
+    width: 40vw;
+    /* margin-left:25vw; */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .container{
+    width: auto;
+  }
+}
